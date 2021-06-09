@@ -1,0 +1,10 @@
+#!/bin/bash
+#loop script for test
+a=1
+while((a<=5))
+do 
+startcommand
+sleep 3600
+stopcommand
+let a=+1
+done
